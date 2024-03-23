@@ -57,8 +57,11 @@ function Pokedex() {
         ))}
         <button onClick={handleNextPage} disabled={currentPage === totalPages}>Next</button>
       </div>
+
+      <div className="pages">
       <p>Current Page: {currentPage}</p>
       <p>Total Pages: {totalPages}</p>
+      </div>
       
       <div className="card-container">
         {pokemonDetails.length > 0 ? (

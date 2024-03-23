@@ -41,7 +41,7 @@ header {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color:rgb(19, 19, 54);
+  background-color:rgba(28, 33, 65, 0.932);
 }
 
 
@@ -60,7 +60,7 @@ h1 {
   top: 0;
   left: 30px;
   font-style: italic;
-  font-family:cursive;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
 }
 
@@ -77,7 +77,7 @@ h1 {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #000000;
+  background-color: #1972a5dc;
   cursor: pointer;
   transition: border-color 0.25s;
   margin-right: 10px;
@@ -97,7 +97,7 @@ button:focus-visible {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
-  font-size: 1em;
+  font-size: 1.5em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
@@ -106,6 +106,14 @@ button:focus-visible {
   padding-bottom: 10px;
   margin-bottom: 20px;
   color: rgb(73, 12, 131);
+
+}
+
+.pages {
+  font-size: larger;
+  margin-left: 30px;
+  font-style: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card{
@@ -137,7 +145,7 @@ button:focus-visible {
 .card:hover {
   transform: perspective(-10deg); 
   box-shadow: 5px 5px 15px rgba(0,0,0,0.6); 
-  background-color:red; 
+  background-color:rgba(255, 0, 0, 0.253); 
  
 }
 
@@ -183,6 +191,7 @@ button:focus-visible {
   grid-template-columns: 1fr;
   grid-gap: 10px; 
   text-align: center; 
+  color: white !important;
 }
 
 .Pokemon .pic {

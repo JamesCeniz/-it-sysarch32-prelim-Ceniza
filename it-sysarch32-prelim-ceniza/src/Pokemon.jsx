@@ -11,7 +11,7 @@ function Pokemon({ name, type, base, image, id, language }) {
         <h2 className="id">{id}</h2>
         <h2 className="name">{name[language]}</h2>
         {type.length === 1 ? (
-        <h2 className="type">Type: {type[0]}</h2>
+        <h2 className="type">{type[0]}</h2>
       ) : (
         <>
           <h2 className="type">{type[0]}</h2>
